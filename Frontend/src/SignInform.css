@@ -1,0 +1,91 @@
+body {
+  //background-color: purple; /* Purple background for the whole screen */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Ensure the body takes up the full height of the viewport */
+}
+.signin-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #b65fcf;
+}
+
+/* Basic styling for the form container */
+.signin-form-container {
+  max-width: 800px;
+  margin: 50px auto; /* Center the form with a margin on top and bottom */
+  padding: 20px;
+  background-color: white; /* White background for the form window */
+  border-radius: 25px;
+  border: 4px solid #98568d; /* Lavender purple border */ /* Optional: Rounded corners for the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow around the form */
+}
+
+/* Center the title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the horizontal form layout */
+.horizontal-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style each input group */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  flex-basis: 48%; /* Inputs take up about half of the container */
+}
+
+.input-group label {
+  margin-bottom: 8px;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+
+.input-label {
+  font-weight: bold;
+}
+
+/* Gender and Role options layout */
+.gender-options,
+.role-options {
+  display: flex;
+  gap: 15px;
+}
+
+.gender-options label,
+.role-options label {
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+/* Button styling */
+.submit-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}

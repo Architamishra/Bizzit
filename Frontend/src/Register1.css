@@ -1,0 +1,101 @@
+/* Full screen purple background */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color: #8f00ff; /* Purple background */
+}
+
+/* Full screen container to center the form */
+.register-page {
+  display: flex;
+  flex-direction: column; /* Stack header and form vertically */
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #b65fcf; /* Purple background */
+  padding-top: 60px; /* Padding for the header */
+}
+
+/* Header styles for horizontal alignment and proper box */
+.register-header {
+  position: fixed; /* Fix the header at the top of the screen */
+  top: 0; /* Ensure it stays at the top */
+  left: 0; /* Align to the left edge */
+  right: 0; /* Align to the right edge */
+  display: flex; /* Align the sections horizontally */
+  justify-content: space-evenly; /* Evenly space the sections */
+  align-items: center; /* Vertically align the items */
+  margin-bottom: 20px;
+  padding: 10px 0;
+  background-color: #fff; /* White background for header */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+  z-index: 10; /* Ensure header is above other elements */
+}
+
+/* Section styles in the header */
+.section {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #b65fcf; /* Purple text for sections */
+  text-align: center;
+  padding: 10px 20px; /* Added spacing around text */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.section {
+  color: #purple;
+}
+
+.section.completed {
+  color: #4caf50; /* Green color for completed sections */
+}
+
+.checkmark {
+  margin-left: 5px;
+  color: #4caf50; /* Green checkmark */
+}
+
+/* Register1 form container */
+.register1-container {
+  width: 600px;
+  padding: 20px;
+  border: 2px solid lavender; /* Lavender border */
+  border-radius: 8px;
+  background-color: #fff; /* White background for the form */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  margin-top: 100px; /* Ensure the form starts below the fixed header */
+}
+
+/* Form styling for fields */
+.form-field {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8f00ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #7d00e6;
+}

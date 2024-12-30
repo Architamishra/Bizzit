@@ -1,0 +1,123 @@
+/* Full screen purple background */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #8f00ff; /* Purple background */
+}
+
+/* Full screen container to center the login box */
+.register-page {
+  display: flex;
+  flex-direction: column; /* Stack header and form vertically */
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #b65fcf; /* Purple background */
+  padding-top: 60px; /* Add padding at the top to ensure the header doesn't overlap */
+}
+
+/* Header styles for horizontal alignment and proper box */
+.register-header {
+  position: fixed; /* Fix the header at the top of the screen */
+  top: 0; /* Ensure it stays at the top */
+  left: 0; /* Align to the left edge */
+  right: 0; /* Align to the right edge */
+  display: flex; /* Align the sections horizontally */
+  justify-content: space-evenly; /* Evenly space the sections */
+  align-items: center; /* Vertically align the items */
+  margin-bottom: 20px;
+  padding: 10px 0;
+  background-color: #fff; /* White background for header */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+  border-radius: 8px; /* Rounded corners */
+  z-index: 10; /* Ensure header is above other elements */
+}
+
+/* Section styles in the header */
+.section {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #b65fcf; /* Purple text for sections */
+  text-align: center;
+  padding: 10px 20px; /* Added spacing around text */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.section.completed {
+  color: #4caf50; /* Green color for completed sections */
+}
+
+.checkmark {
+  margin-left: 5px;
+  color: #4caf50; /* Green checkmark */
+}
+
+/* Centered container for the form */
+.register-container {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid lavender; /* Lavender border */
+  border-radius: 8px;
+  background-color: #fff; /* White background for the form */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  margin-top: 80px; /* Ensure the form starts below the fixed header */
+}
+
+/* Styling for form input groups */
+.input-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.input-label {
+  font-weight: bold;
+  color: #b65fcf; /* Purple color for labels */
+}
+
+/* Input field styling */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f3e6ff; /* Light purple background for textboxes */
+  color: #b65fcf; /* Purple text inside the textboxes */
+}
+
+/* Agreement label styling */
+.agreement-label {
+  font-size: 14px;
+  color: #b65fcf; /* Purple color for the agreement text */
+}
+
+/* Continue button styling */
+.continue-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff; /* White button background */
+  color: #b65fcf; /* Purple text on the button */
+  border: 2px solid lavender; /* Lavender border for the button */
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for the continue button */
+.continue-button:hover {
+  background-color: #b65fcf; /* Purple background on hover */
+  color: white; /* White text on hover */
+  border-color: #b65fcf; /* Purple border on hover */
+}
+
+/* Optional additional styling for the Register1 page */
+.register1-page {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+}

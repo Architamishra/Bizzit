@@ -1,0 +1,93 @@
+/* Full-screen purple background */
+.tax-details-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 1000vh;
+  background-color: #b65fcf; /* Purple background */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.section {
+  color: #purple;
+}
+.section.completed {
+  color: #4caf50; /* Green color for completed sections */
+}
+
+/* Centered container with white background and shadow */
+.tax-details-container {
+  width: 40%;
+  max-width: 1000px;
+  padding: 20px;
+  border-radius: 25px;
+  border: 4px solid #98568d; /* Lavender purple border */
+  background-color: #fff; /* White background for form */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Form Box Styling */
+.tax-details-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Form Title and Subheader */
+.tax-details-box h1 {
+  color: #b65fcf;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tax-details-box h3 {
+  color: #b65fcf;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Flexbox layout for form fields */
+.form-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-field label {
+  width: 200px;
+  font-weight: bold;
+  color: #b65fcf;
+  margin-right: 15px; /* Space between label and input */
+}
+
+.form-field input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 300px; /* Maximum width for the input fields */
+}
+
+/* Button Styling */
+.next-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  color: #b65fcf;
+  border: 2px solid #b65fcf;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: bold;
+}
+
+.next-button:hover {
+  background-color: #b65fcf;
+  color: white;
+  border-color: #b65fcf;
+}

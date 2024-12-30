@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Bizzit Project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Architamishra/Bizzit.git"
+  },
+  "author": "Archita And Shruti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Architamishra/Bizzit/issues"
+  },
+  "homepage": "https://github.com/Architamishra/Bizzit#readme"
+}
