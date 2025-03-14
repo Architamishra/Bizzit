@@ -1,0 +1,22 @@
+.container {
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.table-auto {
+    width: 100%; /* Ensure the table takes full width */
+}
+
+.overflow-x-auto {
+    overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+/* Optional: Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem; /* Reduce padding on smaller screens */
+    }
+
+    .table-auto {
+        font-size: 0.875rem; /* Smaller font size for better fit */
+    }
+}

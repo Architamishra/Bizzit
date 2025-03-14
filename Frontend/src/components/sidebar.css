@@ -1,0 +1,44 @@
+/* sidebar.css */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: linear-gradient(to right, #6a1b9a, #8e24aa);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+}
+
+.brand {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar li svg {
+  margin-right: 10px;
+}
+
+.sidebar .bg-purple-200 {
+  background-color: #6a1b9a; 
+}
+
+.sidebar .hover\:bg-purple-700:hover {
+  background-color: #8e24aa; 
+}
+
+.sidebar .bg-purple-500 {
+  background-color: #8e24aa; 
+}

@@ -1,0 +1,139 @@
+/* Orders Table */
+.orders-table {
+    margin-top: 20px; 
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orders-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2px;
+}
+
+.orders-table th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.orders-table th {
+    background: #e1bee7;
+}
+
+/* Dashboard layout  */
+.dashboard {
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px; 
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px; 
+}
+
+/* Profile Icon */
+.profile-icon {
+    font-size: 40px; 
+    margin-left: 10px;
+    color: #6a4f9b; 
+}
+
+/* Payments Table */
+.payments-table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; 
+}
+
+.payments-table h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #030007;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #e1bee7;
+    font-weight: bold;
+}
+
+td {
+    font-size: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f3e5f5;
+}
+
+td.text-yellow-600 {
+    color: #f59e0b;
+}
+
+.table-auto {
+    table-layout: auto;
+}
+
+@media (max-width: 750px) {
+    table {
+        font-size: 14px;
+    }
+
+    td, th {
+        padding: 8px;
+    }
+}
+
+/* View More Button */
+.view-more-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-more-btn {
+    background-color: #6a1b9a;  
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; 
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-more-btn:hover {
+    background-color: #8e24aa;  
+}
+
+.view-more-btn svg {
+    margin-left: 10px;
+}
